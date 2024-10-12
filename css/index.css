@@ -25,6 +25,10 @@ input, textarea, select{
     text-transform: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #F3F4F6;
+}
+
 a {
     color: inherit;
 }
@@ -198,7 +202,31 @@ a {
     grid-column: 1/4
 }
 
+/*-----------------------------------------       EDUCATION       PAGE           ---------------------------------------------------------------------*/
 
+.education__content{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.education__content img{
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.education__content__inf{
+    max-width: 500px;
+    padding-top: 20px;
+}
+.education__content__inf h1{
+    margin-bottom: 5px;
+}
+
+.table__row td{
+    padding-right: 10px;
+}
 /*-----------------------------------------       CONTACT         PAGE           ---------------------------------------------------------                               */
 
 .contact__section__padding{
@@ -328,8 +356,6 @@ a {
     border: none;
 }
 
-
-
 @media(max-width: 1081px){
     .intro h1{
         font-size: 40px;
@@ -364,7 +390,6 @@ a {
     .form h3{
         font-size: 33px;
     }
-
 }
 
 @media(max-width: 931px){
@@ -399,6 +424,29 @@ a {
     .form h3{
         font-size: 28px;
     }
+    /*  Education page  */
+
+    .education__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .education__content img{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .education__content__inf{
+        max-width: 440px;
+        margin-right: 20px;
+        font-size: 14px;
+        padding-top: 0;
+    }
+    .education__content__inf p{
+        overflow: scroll;
+    }
+    .education__timeline{
+        max-width: 460px;
+        width: 100%;
+    }
 }
 
 @media(max-width: 720px){
@@ -418,6 +466,7 @@ a {
     .form h3{
         font-size: 100%;
     }
+
 }
 
 @media(max-width: 581px){

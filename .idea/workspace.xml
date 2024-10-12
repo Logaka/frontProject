@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ac786e-bf85-43fd-a8e0-d6447b76024e" name="Changes" comment="add .gitignore">
+      <change afterPath="$PROJECT_DIR$/html/education.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frontProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frontProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/family.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/family.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +25,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="frontProject/html/index.html_ijt=ipno484dtsrm6ps4rhh58sbiu3&amp;_ij_reload=RELOAD_ON_SAVE" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Logaka"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Logaka&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/Logaka/frontProject.git",
-    "accountId": "ecb59443-44a2-46fe-bab0-376b049b722d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/Logaka/frontProject.git&quot;,
+    &quot;accountId&quot;: &quot;ecb59443-44a2-46fe-bab0-376b049b722d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -66,7 +80,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -103,7 +117,8 @@
       <workItem from="1728291623259" duration="29205000" />
       <workItem from="1728378664745" duration="3062000" />
       <workItem from="1728465889124" duration="669000" />
-      <workItem from="1728559704240" duration="19679000" />
+      <workItem from="1728559704240" duration="23012000" />
+      <workItem from="1728590638741" duration="13206000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -153,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728585710989</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1728587097469</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728587097469</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +224,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
