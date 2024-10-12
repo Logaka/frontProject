@@ -7,3 +7,10 @@ navLinks.forEach(link => {
         link.classList.add('active');
     }
 });
+
+const hamburgerButton = document.querySelector('.hamburger');
+const menuLinks = document.querySelector('.menuLinks');
+
+hamburgerButton.addEventListener('click', () => {
+    menuLinks.classList.toggle('active');
+});

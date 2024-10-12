@@ -75,7 +75,22 @@ a {
 .hamburger {
     display: none;
 }
+.menuLinks {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;/
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
 
+.menuLinks.active {
+    opacity: 1;
+    visibility: visible;
+}
 .bar {
     display: block;
     width: 25px;
@@ -84,7 +99,6 @@ a {
     background-color: #F3F4F6;
     border-radius: 15px;
 }
-
 .item:hover {
     color: white;
 }
@@ -95,7 +109,6 @@ a {
 
 .index__section__padding {
     padding: 96px 0;
-
 }
 
 .index__section__content {
@@ -204,23 +217,24 @@ a {
 
 /*-----------------------------------------       EDUCATION       PAGE           ---------------------------------------------------------------------*/
 
-.education__content{
+.card__content{
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
+    margin-left: 5%;
 }
-.education__content img{
+.card__content img{
     max-width: 450px;
     width: 100%;
     height: auto;
     border-radius: 20px;
     margin-right: 20px;
 }
-.education__content__inf{
+.card__content__inf{
     max-width: 500px;
     padding-top: 20px;
 }
-.education__content__inf h1{
+.card__content__inf h1{
     margin-bottom: 5px;
 }
 
@@ -426,24 +440,22 @@ a {
     }
     /*  Education page  */
 
-    .education__content{
+    .card__content{
         flex-direction: column;
         align-items: center;
+        margin-left: 0;
     }
-    .education__content img{
+    .card__content img{
         margin-right: 0;
         margin-bottom: 10px;
     }
-    .education__content__inf{
+    .card__content__inf{
         max-width: 440px;
         margin-right: 20px;
         font-size: 14px;
         padding-top: 0;
     }
-    .education__content__inf p{
-        overflow: scroll;
-    }
-    .education__timeline{
+    .card__timeline{
         max-width: 460px;
         width: 100%;
     }
@@ -485,7 +497,9 @@ a {
         font-size: 15px;
         display: flex;
     }
-
+    .menu.active {
+        display: flex;
+    }
     .hamburger{
         display: block;
     }
